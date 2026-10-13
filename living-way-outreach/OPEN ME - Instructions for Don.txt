@@ -63,6 +63,12 @@ A FEW IMPORTANT THINGS:
    * Open option 5 (the Quick Start guide) first - it explains
      everything in plain language.
 
+IF SOMETHING LOOKS WRONG ON THE FIRST RUN:
+   Don't worry. Take a photo of whatever is on the screen (any
+   error or message) and send it to Chuck. It's an easy fix.
+   You do NOT need Python or any other software - just Windows,
+   PowerShell (already built in), and Excel, which you have.
+
 Questions about using it? Open the menu and read option 5.
 God bless, and happy outreach!
 ==============================================================
