@@ -1,0 +1,108 @@
+==============================================================
+   LIVING WAY UPC - OUTREACH HELPER
+   Quick Start for Don Taylor
+==============================================================
+
+HOW TO START (this is all you have to do):
+
+   1. Double-click the file named:   Start Here
+
+   2. A menu will open. Type a number and press Enter.
+
+   That's it. You never have to type any computer commands.
+
+
+WHAT THE MENU DOES:
+
+   1 = Import your CHURCH MEMBER list.
+       (When you get the member spreadsheet, pick this. The program
+        will ask you to drag the file in. It keeps your members
+        separate from the community contacts.)
+
+   2 = Import an OUTREACH list.
+       (Any list of people met at an event. Same easy steps.)
+
+   3 = See where things stand - a quick summary of your numbers.
+
+   4 = Open the data folder, where the spreadsheets live.
+       You can open or print them from there.
+
+   5 = Read this guide again.
+
+   6 = Events. Add any event (name, date, time, place). Reuse this
+       for every outreach, door-knock, or church event - forever.
+
+   7 = Campaigns. Group one or more events together (for example,
+       Saturday's outreach PLUS a new upcoming event).
+
+   8 = Facebook posts. The program WRITES a finished post for your
+       event. It copies it to your clipboard. You open Facebook and
+       paste it (Ctrl+V), then press Post. You can also mark posts
+       as "posted" so you remember what's done.
+       IMPORTANT: the program does NOT post to Facebook by itself.
+       You paste it in. (That keeps the church's page safe and is
+       the only way allowed by Facebook's rules.)
+
+   9 = Team Messages. This is where you build and run your teams:
+       - Assign each volunteer to a team as a CAPTAIN or a MEMBER.
+       - "View my teams" shows every team with its captain + members.
+       - Write a REMINDER / recruitment text and send to everyone,
+         one team, or several teams (you type the team names).
+       - Write a "Share our Facebook post" text with the post link,
+         asking members to share it with their friends and family.
+       - Print a phone list for any team to text them quickly.
+       As always: it writes the message and gathers the numbers.
+       YOU send it from your phone. It never texts anyone by itself.
+
+   10 = Field Map & Team Chat. All FREE, works on every phone.
+       - Step-by-step setup for a free SHARED MAP (Google My Maps)
+         where your team drops pins: "served here", "good door-knock",
+         "come back later". Everyone sees the same map on their phones.
+       - Step-by-step setup for a free TEAM CHAT (GroupMe/WhatsApp/
+         group text) so you get instant notifications in the field.
+       - Record those pins here too, so you keep a permanent history.
+       NOTE: this marks PLACES only. It does NOT track or follow any
+       person's location. That keeps everyone's trust and privacy safe.
+
+   CAMPAIGN PLAYBOOKS:
+       Under Campaigns (7) you can make a step-by-step PLAYBOOK for
+       any campaign. It saves a printable instructions sheet in the
+       "playbooks" folder telling you exactly what to do, in order,
+       to run that campaign. Reuse it for every event.
+
+   0 = Quit.
+
+
+HOW TO IMPORT A LIST (super simple):
+
+   - Choose 1 or 2 from the menu.
+   - DRAG your spreadsheet file into the black window.
+   - Press Enter.
+   - Type YES to confirm.
+   The program ADDS the new people. It NEVER erases what's there,
+   and it saves a backup first every single time.
+
+
+IMPORTANT - PLEASE READ:
+
+   * The program does NOT send any texts or emails by itself.
+     It helps you get organized. You send messages yourself,
+     from your own phone, after leadership approves them.
+
+   * We only do a home visit for someone who gave us their
+     address AND said yes to a visit. If there's no address,
+     we don't go to a door. That keeps everyone safe and welcome.
+
+   * If anyone ever says "stop" or "don't contact me," we honor
+     that. Do not text them again.
+
+
+WHERE YOUR STUFF IS:
+
+   data\            - your spreadsheets (contacts, members, volunteers)
+   backups\         - automatic safety copies
+   imports_dropbox\ - untouched copies of every file you import
+
+
+QUESTIONS? Contact the person who sent you this kit.
+==============================================================

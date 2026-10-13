@@ -1,0 +1,68 @@
+==============================================================
+   LIVING WAY UPC OUTREACH KIT
+   Setup Instructions for Don Taylor
+==============================================================
+
+Hi Don! Setting this up takes about one minute. Follow these
+steps exactly. You do NOT need to be technical.
+
+
+STEP 1 - UNZIP THIS FOLDER
+   - You probably already did this if you can read this file.
+   - If this file is still inside a ZIP, right-click the ZIP,
+     choose "Extract All", then click "Extract".
+
+
+STEP 2 - RUN THE INSTALLER
+   - In this folder you will see a file named:
+
+         INSTALL_Living_Way_Outreach
+
+   - Double-click it.
+
+   - Windows may show a blue box that says
+     "Windows protected your PC."
+     This is normal for any new program. Just:
+        1. Click the words "More info"
+        2. Click the button "Run anyway"
+
+   - A black window opens, works for a few seconds, and says DONE.
+   - A folder called "LivingWay_Outreach_Kit" opens on your Desktop.
+
+
+STEP 3 - START USING IT
+   - In that folder, double-click the file named:
+
+         Start Here
+
+   - A friendly menu appears. Type a number and press Enter.
+   - That's it! You never have to run the installer again.
+     From now on, just double-click "Start Here" on your Desktop.
+
+
+WHAT'S INSIDE (the menu):
+   1  Import church member list
+   2  Import an outreach list (people met at events)
+   3  See where things stand
+   4  Open your data folder
+   5  Read the full Quick Start guide
+   6  Events
+   7  Campaigns (and print a step-by-step playbook)
+   8  Facebook posts (writes the post, you paste it in)
+   9  Team Messages (captains, members, reminders)
+  10  Field Map & Team Chat (free map pins + notifications)
+   0  Quit
+
+
+A FEW IMPORTANT THINGS:
+   * The program never sends texts or posts by itself. It gets
+     everything ready and YOU send it from your phone or Facebook.
+     This keeps the church safe and follows the rules.
+   * It already has the 24 Night Out Against Crime contacts in it.
+   * It backs up your information automatically every time.
+   * Open option 5 (the Quick Start guide) first - it explains
+     everything in plain language.
+
+Questions about using it? Open the menu and read option 5.
+God bless, and happy outreach!
+==============================================================
