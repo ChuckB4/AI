@@ -818,7 +818,54 @@ function Write-TeamText($kind) {
     Write-Host ""
     $cp = Read-Host "  Copy the MESSAGE to the clipboard now? (YES/no)"
     if ($cp -ne "no") { try { $body | Set-Clipboard; Write-Host "  Message copied! Start a group text to the numbers above and paste it." -ForegroundColor Green } catch { Write-Host "  (Clipboard unavailable - copy it from the screen.)" -ForegroundColor Yellow } }
+    Write-Host ""
+    $mk = Read-Host "  Make one-tap TEXT buttons for these people? (YES/no)"
+    if ($mk -ne "no") { Make-ClickToText $recips $body }
     Pause-Return
+}
+
+# ---------- One-tap click-to-text page (opens texting app pre-filled; human taps Send) ----------
+function Html-Escape($s) {
+    if (-not $s) { return "" }
+    return ($s -replace '&','&amp;' -replace '<','&lt;' -replace '>','&gt;' -replace '"','&quot;')
+}
+
+function Make-ClickToText($recips, $body) {
+    # Build a simple web page with one button per person.
+    # Each button opens the phone's texting app with the number and message
+    # already filled in. The person still presses Send themselves (legal + safe).
+    $msgEnc = [System.Uri]::EscapeDataString([string]$body)
+    $sb = New-Object System.Text.StringBuilder
+    [void]$sb.AppendLine('<!DOCTYPE html><html><head><meta charset="utf-8">')
+    [void]$sb.AppendLine('<meta name="viewport" content="width=device-width, initial-scale=1">')
+    [void]$sb.AppendLine('<title>Living Way - Send Texts</title>')
+    [void]$sb.AppendLine('<style>body{font-family:Arial;margin:16px;background:#f4f6f8;color:#222}')
+    [void]$sb.AppendLine('h2{color:#1a7f37}.msg{background:#fff;border:1px solid #ddd;border-radius:8px;padding:12px;margin-bottom:16px;white-space:pre-wrap}')
+    [void]$sb.AppendLine('a.btn{display:block;background:#1a7f37;color:#fff;text-decoration:none;padding:14px;border-radius:10px;margin:8px 0;font-size:18px;text-align:center}')
+    [void]$sb.AppendLine('.note{color:#666;font-size:14px;margin:12px 0}</style></head><body>')
+    [void]$sb.AppendLine('<h2>Living Way UPC - One-Tap Texts</h2>')
+    [void]$sb.AppendLine('<div class="note">Open this page ON YOUR PHONE. Tap a name - your texting app opens with the message ready. You press Send. (One person at a time keeps it legal and safe.)</div>')
+    [void]$sb.AppendLine('<div class="msg"><b>Message:</b><br>' + (Html-Escape $body) + '</div>')
+    foreach ($r in $recips) {
+        $ph = ($r.Phone -replace '[^0-9+]','')
+        if (-not $ph) { continue }
+        $nm = Html-Escape ($r.FirstName + ' ' + $r.LastName)
+        [void]$sb.AppendLine('<a class="btn" href="sms:' + $ph + '?&body=' + $msgEnc + '">Text ' + $nm + '  (' + (Html-Escape $r.Phone) + ')</a>')
+    }
+    [void]$sb.AppendLine('</body></html>')
+
+    $outFolder = Join-Path $KitRoot "send_pages"
+    if (-not (Test-Path $outFolder)) { New-Item -ItemType Directory -Path $outFolder -Force | Out-Null }
+    $stamp = Get-Date -Format "yyyyMMdd_HHmmss"
+    $file = Join-Path $outFolder ("text_buttons_" + $stamp + ".html")
+    $sb.ToString() | Out-File -FilePath $file -Encoding UTF8
+    Write-Host ""
+    Write-Host "  Made a one-tap TEXT page:" -ForegroundColor Green
+    Write-Host ("    " + $file) -ForegroundColor White
+    Write-Host "  Open this file ON YOUR PHONE (email it to yourself, or put it" -ForegroundColor DarkGray
+    Write-Host "  in a shared folder). Tap each name, then press Send." -ForegroundColor DarkGray
+    $op = Read-Host "  Open it now on THIS computer to preview? (YES/no)"
+    if ($op -ne "no") { try { Start-Process $file } catch {} }
 }
 
 function Print-TeamPhones {

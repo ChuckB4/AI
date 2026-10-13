@@ -53,6 +53,11 @@ WHAT THE MENU DOES:
        - Print a phone list for any team to text them quickly.
        As always: it writes the message and gathers the numbers.
        YOU send it from your phone. It never texts anyone by itself.
+       NEW - ONE-TAP TEXT BUTTONS: after writing a message, the
+       program can make a simple web page with a button for each
+       person. Open that page ON YOUR PHONE, tap a name, and your
+       texting app opens with the message already typed in - you
+       just press Send. One person at a time keeps it legal.
 
    10 = Field Map & Team Chat. All FREE, works on every phone.
        - Step-by-step setup for a free SHARED MAP (Google My Maps)
