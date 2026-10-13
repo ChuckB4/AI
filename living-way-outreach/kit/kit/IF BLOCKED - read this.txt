@@ -1,0 +1,46 @@
+==============================================================
+   IF WINDOWS BLOCKS IT ("Smart App Control" or similar)
+==============================================================
+
+Newer Windows has a feature called "Smart App Control" that can
+block small programs it doesn't recognize. Our church tool is
+safe - Windows just doesn't recognize it because it's new and not
+from a big company. Here are easy ways around it. Try them in order.
+
+
+WAY 1 - UNBLOCK THE FOLDER (usually works)
+   1. Find the "Start Here" file in this folder.
+   2. Right-click it, choose "Properties".
+   3. At the bottom, if you see a checkbox or button that says
+      "Unblock", check it / click it, then click OK.
+   4. Double-click "Start Here" again.
+
+
+WAY 2 - RUN THE MENU DIRECTLY (no .bat needed)
+   1. Open the "program" folder inside this kit.
+   2. Right-click the file called "menu" (menu.ps1).
+   3. Choose "Run with PowerShell".
+   4. The menu opens. (This skips the launcher file entirely.)
+
+
+WAY 3 - RIGHT-CLICK, RUN AS ADMINISTRATOR
+   1. Right-click "Start Here".
+   2. Choose "Run as administrator".
+   3. If asked, click Yes.
+
+
+WAY 4 - TURN SMART APP CONTROL OFF (only if nothing else works)
+   NOTE: This is a Windows security setting. Only do this if you
+   are comfortable, or ask Chuck first.
+   1. Click the Windows Start button, type:  Smart App Control
+   2. Open "Smart App Control" settings.
+   3. Set it to "Off".
+      (Important: once it is turned Off, Windows will not let you
+       turn it back On without reinstalling Windows - so only do
+       this if you understand that.)
+   4. Double-click "Start Here" again.
+
+
+STILL STUCK?
+   Take a photo of the screen and send it to Chuck. Easy fix.
+==============================================================
