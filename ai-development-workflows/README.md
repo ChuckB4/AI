@@ -42,6 +42,24 @@ ai-development-workflows/
 More steering files, skills, agents, and packs are added incrementally. See the
 open pull request for work in progress.
 
+## Packs
+
+Each pack has a `README.md` describing its purpose, scope, planned contents,
+quality requirements, and completion criteria. Skills and agents are added to
+each pack incrementally; a pack is complete only when every item in its own
+table exists and is reviewed.
+
+| Pack | Focus | Status |
+| --- | --- | --- |
+| [`ninjatrader-8`](packs/ninjatrader-8/README.md) | NinjaScript/C# for NT8: lifecycle, multi-series, strategies, risk, backtesting, release. | README only |
+| [`csharp-dotnet`](packs/csharp-dotnet/README.md) | Modern C#/.NET standards, async correctness, build/test loop. | README only |
+| [`react`](packs/react/README.md) | React + TypeScript UI: components, hooks, state, accessibility, testing. | README only |
+| [`apis`](packs/apis/README.md) | API design, error models, versioning, OpenAPI, resilient consumption. | README only |
+| [`security`](packs/security/README.md) | Secrets, OWASP vuln classes, dependency/supply-chain, static analysis. | README only |
+| [`debugging`](packs/debugging/README.md) | Reproduce-first, hypothesis-driven debugging; regression capture. | README only |
+| [`testing`](packs/testing/README.md) | Test philosophy, pyramid, determinism, CI/sandbox runs. | README only |
+| [`release-engineering`](packs/release-engineering/README.md) | Versioning, changelogs, pre-release verification, rollback. | README only |
+
 ## Conventions
 
 - Each skill and agent lives in its own detailed Markdown file.
