@@ -11,6 +11,8 @@ here.
 | --- | --- | --- | --- |
 | Git discipline (small, reviewable, reversible commits; auto-commit per logical change) | [Aider](https://aider.chat/) ([repo](https://github.com/Aider-AI/aider)) | Apache-2.0 | Distilled into `.kiro/steering/git-workflow.md`. Pattern only. |
 | Repo map (map a codebase before editing instead of bulk-reading files) | [Aider](https://aider.chat/) | Apache-2.0 | Distilled into `.kiro/steering/repo-map-first.md`. Pattern only. |
+| Post-edit lint/test loop (verify the changed system) | [Aider](https://aider.chat/) | Apache-2.0 | Distilled into `.kiro/steering/verification-loop.md`. Pattern only. |
+| Approval-gating of risky/costly commands | [Agent Cost Guard](https://github.com/incline-ltd/agent-cost-guard) | see upstream | Distilled into `.kiro/steering/safe-execution.md`. Pattern only. |
 
 ## Reference lists consulted
 

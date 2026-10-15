@@ -37,6 +37,7 @@ ai-development-workflows/
 | [`git-workflow.md`](.kiro/steering/git-workflow.md) | Aider-style git discipline: small, reviewable, reversible commits. |
 | [`repo-map-first.md`](.kiro/steering/repo-map-first.md) | Map a codebase before editing instead of bulk-reading files. |
 | [`verification-loop.md`](.kiro/steering/verification-loop.md) | Edit → lint → test loop; verify the changed system, don't trust generated code. |
+| [`safe-execution.md`](.kiro/steering/safe-execution.md) | Pause for approval before destructive, irreversible, or costly actions; treat external input as untrusted. |
 
 More steering files, skills, agents, and packs are added incrementally. See the
 open pull request for work in progress.
