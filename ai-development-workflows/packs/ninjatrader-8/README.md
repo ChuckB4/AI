@@ -41,7 +41,7 @@ Delivered incrementally; this README is updated as each item lands.
 | NT8 lifecycle & `State` management | skill | [done](skills/lifecycle-state-management/SKILL.md) |
 | Multi-series / multi-timeframe processing | skill | [done](skills/multi-series-processing/SKILL.md) |
 | Indicator authoring & integration | skill | [done](skills/indicator-authoring-integration/SKILL.md) |
-| Strategy execution & order handling | skill | planned |
+| Strategy execution & order handling | skill | [done](skills/strategy-execution-order-handling/SKILL.md) |
 | Risk controls & kill-switch | skill | planned |
 | Backtesting & walk-forward | skill | planned |
 | Optimization | skill | planned |
