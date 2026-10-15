@@ -37,7 +37,7 @@ Delivered incrementally; this README is updated as each item lands.
 
 | Item | Type | Status |
 | --- | --- | --- |
-| NinjaScript / C# authoring standards | skill | planned |
+| NinjaScript / C# authoring standards | skill | [done](skills/ninjascript-csharp-standards/SKILL.md) |
 | NT8 lifecycle & `State` management | skill | planned |
 | Multi-series / multi-timeframe processing | skill | planned |
 | Indicator authoring & integration | skill | planned |
