@@ -45,7 +45,7 @@ Delivered incrementally; this README is updated as each item lands.
 | Risk controls & kill-switch | skill | [done](skills/risk-controls/SKILL.md) |
 | Backtesting & walk-forward | skill | [done](skills/backtesting-walk-forward/SKILL.md) |
 | Optimization | skill | [done](skills/optimization/SKILL.md) |
-| Compilation & deployment | skill | planned |
+| Compilation & deployment | skill | [done](skills/compilation-deployment/SKILL.md) |
 | Release verification | skill | planned |
 | NT8 strategy-development agent | agent | planned |
 
