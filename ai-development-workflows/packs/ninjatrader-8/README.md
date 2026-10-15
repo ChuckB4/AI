@@ -42,7 +42,7 @@ Delivered incrementally; this README is updated as each item lands.
 | Multi-series / multi-timeframe processing | skill | [done](skills/multi-series-processing/SKILL.md) |
 | Indicator authoring & integration | skill | [done](skills/indicator-authoring-integration/SKILL.md) |
 | Strategy execution & order handling | skill | [done](skills/strategy-execution-order-handling/SKILL.md) |
-| Risk controls & kill-switch | skill | planned |
+| Risk controls & kill-switch | skill | [done](skills/risk-controls/SKILL.md) |
 | Backtesting & walk-forward | skill | planned |
 | Optimization | skill | planned |
 | Compilation & deployment | skill | planned |
