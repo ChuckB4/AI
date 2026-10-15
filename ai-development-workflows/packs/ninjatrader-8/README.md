@@ -44,7 +44,7 @@ Delivered incrementally; this README is updated as each item lands.
 | Strategy execution & order handling | skill | [done](skills/strategy-execution-order-handling/SKILL.md) |
 | Risk controls & kill-switch | skill | [done](skills/risk-controls/SKILL.md) |
 | Backtesting & walk-forward | skill | [done](skills/backtesting-walk-forward/SKILL.md) |
-| Optimization | skill | planned |
+| Optimization | skill | [done](skills/optimization/SKILL.md) |
 | Compilation & deployment | skill | planned |
 | Release verification | skill | planned |
 | NT8 strategy-development agent | agent | planned |
